@@ -62,6 +62,7 @@
     <Compile Include="Applications.cs" />
     <Compile Include="Encryption.cs" />
     <Compile Include="Authentication.cs" />
+    <Compile Include="example-model\AppUpdates.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="Extraction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
