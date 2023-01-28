@@ -63,7 +63,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error acquiring application data: {0}", ex.Message);
                 ex.LogError("Error acquiring application data for v" + currentVersion);
                 return null;
             }
@@ -104,7 +103,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error checking for updates: {0}", ex.Message);
                 ex.LogError("Error checking for updates data");
                 return null;
             }
@@ -276,7 +274,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error in main Acquisition of Update Package: " + ex.Message);
                 ex.LogError("Error in main Acquisition of Update Package");
                 return false;
             }

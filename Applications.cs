@@ -40,7 +40,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error launching process or application: {0}", ex.Message);
                 ex.LogError("Error launching process or application: " + appPath);
                 return false;
             }
@@ -73,7 +72,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error deleting completed update temp folder(s): {0}", ex.Message);
                 ex.LogError("Error deleting completed update temp folder(s) at path: " + updateFolderPath);
                 return false;
             }
@@ -154,7 +152,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error applying final update: {0}", ex.Message);
                 ex.LogError("Error applying final update");
                 return false;
             }

@@ -29,7 +29,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA1 file hash: " + ex.Message);
                 ex.LogError("Error generating SHA1 file hash for " + filePath);
                 return null;
             }
@@ -53,7 +52,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA1 string hash: " + ex.Message);
                 ex.LogError("Error generating SHA1 string hash of " + input);
                 return null;
             }
@@ -81,7 +79,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA256 file hash: " + ex.Message);
                 ex.LogError("Error generating SHA256 file hash for " + filePath);
                 return null;
             }
@@ -105,7 +102,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA256 string hash: " + ex.Message);
                 ex.LogError("Error generating SHA256 string hash of " + input);
                 return null;
             }
@@ -133,7 +129,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA384 file hash: " + ex.Message);
                 ex.LogError("Error generating SHA384 file hash for " + filePath);
                 return null;
             }
@@ -157,7 +152,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA384 string hash: " + ex.Message);
                 ex.LogError("Error generating SHA384 string hash of " + input);
                 return null;
             }
@@ -185,7 +179,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA512 file hash: " + ex.Message);
                 ex.LogError("Error generating SHA512 file hash for " + filePath);
                 return null;
             }
@@ -209,7 +202,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating SHA512 string hash: " + ex.Message);
                 ex.LogError("Error generating SHA512 string hash of " + input);
                 return null;
             }
@@ -237,7 +229,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating MD5 file hash: " + ex.Message);
                 ex.LogError("Error generating MD5 file hash for " + filePath);
                 return null;
             }
@@ -261,7 +252,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating MD5 string hash: " + ex.Message);
                 ex.LogError("Error generating MD5 string hash of " + input);
                 return null;
             }
@@ -291,7 +281,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error generating file hash checksum: " + ex.Message);
                 ex.LogError("Error generating file hash checksum of " + filePath);
                 return null;
             }

@@ -30,7 +30,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error extracting zip file: {0}", ex.Message);
                 ex.LogError("Error extracting zip file '" + zipPath + "' to folder at: " + extractPath);
                 return false;
             }
@@ -48,7 +47,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error validating file path: {0}", ex.Message);
                 ex.LogError("Error validating file path: " + filePath);
                 return false;
             }
@@ -68,7 +66,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error validating folder path: {0}", ex.Message);
                 ex.LogError("Error validating folder path: " + folderPath);
                 return false;
             }
@@ -90,7 +87,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error deleting existing update file(s): {0}", ex.Message);
                 ex.LogError("Error deleting existing update file(s) at path: " + filePath);
                 return false;
             }
@@ -112,7 +108,6 @@ namespace VGLabsFoundation
             }
             catch (Exceptions ex)
             {
-                Console.WriteLine("Error deleting existing update folder(s): {0}", ex.Message);
                 ex.LogError("Error deleting existing update folder(s) at path: " + folderPath);
                 return false;
             }
