@@ -1,0 +1,45 @@
+[
+  {
+    "appName": "ExampleAppName",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "featuredChange": "Example featured change will appear in the update-found message box pop-up",
+        "fileHash256": "bf5733b5131a62b34139552291725b52fae4aed545952b9400f3dedd76ea1fec",
+        "fileHash512": "6d40142305aa579faa62182d09d01b4cfc7381eaeb91b552c4a789e0de640c0a313c594b87d19864ddbc99cfd007ef11ce29e084164d0a6e55cc62ecbcb11a9d",
+        "zipPackageHash256": "3f24ab32cf269811f244ff8cbab0757844f8214f11230b7ae553d26b3c9ea771",
+        "zipPackageHash512": "5758881b1d144a57b330af8b03e3fd191fdd249a1ec9e1072c1164dbb8ae6f796fc6314ed0f7cfa392ec11ba1a8f011330735fcb60b5bb6648e0b8a848b558dd",
+        "downloadLink": "https://example-link.com/ExampleAppName_v1.0.0.0.zip",
+        "changelogLink": "https://example-link.com/ExampleAppName_changelog.html",
+        "repositoryLink": "https://github.com/ExampleUserName/ExampleAppName"
+      }
+    ]
+  },
+  {
+    "appName": "ExampleOtherAppName",
+    "versions": [
+      {
+        "version": "0.6.1.0",
+        "featuredChange": "Improbability Drive improved! See changelog for complete details! Long lines like this will be wrapped in the update notice MessageBox object.",
+        "fileHash256": "0bdf578bd3037f173beb8cc2235b99b5ed645de427b47fb7fd015052b9de15cb",
+        "fileHash512": "2ba43453f28aa709ef63f83c9de3099fa0cf03525c328577dbe8a62ff82fd4540240d07e0f5a62f027a08cdcc60b1bd16e2abffb63df2d0cdec56286dc2d964b",
+        "zipPackageHash256": "3f9cf6a401a3422fb34f11a89621e376f1c64948762dd1166f736e8029523873",
+        "zipPackageHash512": "337a2b363777c84b6f478a47b7d46c0f783478e7939b53e1faa67fd4b01d2b97e5edd37e7ea5355ed14def335f0569823101a338463f9f6c8c623ab6817d84a1",
+        "downloadLink": "https://veterans-gaming.com/semlerpdx/vglabs/downloads/exampleotherappname/ExampleOtherAppName_v0.6.1.0.zip",
+        "changelogLink": "https://example-link.com/ExampleOtherAppName_changelog.html",
+        "repositoryLink": "https://github.com/ExampleUserName/ExampleOtherAppName"
+      },
+      {
+        "version": "0.6.0.0",
+        "featuredChange": "New Improbability Drive added!",
+        "fileHash256": "0bdf578bd3037f173beb8cc2235b99b5ed645de427b47fb7fd015052b9de15cb",
+        "fileHash512": "2ba43453f28aa709ef63f83c9de3099fa0cf03525c328577dbe8a62ff82fd4540240d07e0f5a62f027a08cdcc60b1bd16e2abffb63df2d0cdec56286dc2d964b",
+        "zipPackageHash256": "3f9cf6a401a3422fb34f11a89621e376f1c64948762dd1166f736e8029523873",
+        "zipPackageHash512": "337a2b363777c84b6f478a47b7d46c0f783478e7939b53e1faa67fd4b01d2b97e5edd37e7ea5355ed14def335f0569823101a338463f9f6c8c623ab6817d84a1",
+        "downloadLink": "https://example-link.com/ExampleOtherAppName_v0.6.0.0.zip",
+        "changelogLink": "https://example-link.com/ExampleOtherAppName_changelog.html",
+        "repositoryLink": "https://github.com/ExampleUserName/ExampleOtherAppName"
+      }
+    ]
+  }
+]
