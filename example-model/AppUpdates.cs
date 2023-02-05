@@ -2,9 +2,17 @@
 // Example of required AppUpdate class (from MouseMasterVR)
 // by SemlerPDX Jan2023
 
-// This is an example, and must be provided in the app which includes the VGLabsFoundation DLL
-// Tailor as needed to the final application, and uncomment the entire block below
+// This is an example, and must be available in the app which includes the VGLabsFoundation DLL
+// Change the Namespace to match the final application, and the FirstTimeUseNotice() method as needed
+// Include the following in the MainWindow main method prior to any other initializations:
+/*
+    // Pre-initialization Update System
+    AppUpdates.UpgradeSettings();
+    if (AppUpdates.CanUpdateCheck())
+        this.Close();
+*/
 
+// Remove this and other notes above, and uncomment the entire block below when including this class in final app:
 /*using ExampleAppNamespace.Properties;
 using System;
 using System.Configuration;
