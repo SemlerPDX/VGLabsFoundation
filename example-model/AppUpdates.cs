@@ -1,4 +1,11 @@
-﻿/*using ExampleAppNamespace.Properties;
+﻿// VG Labs Foundation Library
+// Example of required AppUpdate class (from MouseMasterVR)
+// by SemlerPDX Jan2023
+
+// This is an example, and must be provided in the app which includes the VGLabsFoundation DLL
+// Tailor as needed to the final application, and uncomment the entire block below
+
+/*using ExampleAppNamespace.Properties;
 using System;
 using System.Configuration;
 using System.IO;

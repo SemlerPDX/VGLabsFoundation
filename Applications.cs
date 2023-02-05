@@ -1,4 +1,7 @@
-﻿using System;
+﻿// VG Labs Foundation Library
+// by SemlerPDX Jan2023
+
+using System;
 using System.IO;
 using System.Security;
 using System.Security.Permissions;

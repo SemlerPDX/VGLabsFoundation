@@ -1,4 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿// VG Labs Foundation Library
+// by SemlerPDX Jan2023
+
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
